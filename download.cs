@@ -1,5 +1,7 @@
 /*
-	nuged console 
+	/Tools
+	....../NuGet Package Manager 
+	............................/Package Manager Console 
 	PM> Install-Package DotNetZip
 
 */
