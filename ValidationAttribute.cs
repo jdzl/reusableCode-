@@ -1,3 +1,15 @@
+  /*
+  Entity Model
+  USERS
+  */
+  public partial class USERS
+  {
+    [UserExist(ErrorMessage = " El nombre de usuario ya se encuentra registrado.")]
+    public string user{ get; set; }
+  }
+/*
+Model validation
+*/
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -24,14 +36,6 @@ namespace x.Models
     }
   }
   
-  /*
-  Entity Model
-  */
-  public partial class USUARIOS
-  {
-    [UserExist(ErrorMessage = " El nombre de usuario ya se encuentra registrado.")]
-    public string user{ get; set; }
-    
-  }
+
   
   
